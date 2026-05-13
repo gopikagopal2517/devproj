@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/gopikagopal2517/mavenemail.git',
+                    url: 'https://github.com/gopikagopal2517/devproj.git',
                     credentialsId: 'github-token'
             }
         }
